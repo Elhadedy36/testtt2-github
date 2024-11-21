@@ -7,7 +7,10 @@ class AuthScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(),
+        Container
+        (
+          child: TextField(),
+        ),
       ],
     );
   }
